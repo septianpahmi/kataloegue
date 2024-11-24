@@ -1989,7 +1989,11 @@ section,
 .payment-logo:hover {
   transform: scale(1.1); /* Memperbesar sedikit saat hover */
 }
-
+.justify-text {
+  text-align: justify; /* Membuat teks rata kanan dan kiri */
+  line-height: 1.8; /* Memberikan jarak antar baris untuk kenyamanan membaca */
+  text-justify: inter-word; /* Mengatur jarak antar kata agar lebih rapi */
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
