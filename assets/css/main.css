@@ -1407,6 +1407,10 @@ section,
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Menjaga proporsi gambar tetap terjaga */
+  max-height: 250px; /* Menetapkan tinggi gambar yang sama */
 }
 
 .portfolio .portfolio-content .portfolio-info {
